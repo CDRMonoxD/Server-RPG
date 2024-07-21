@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 16,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "face-philip.sa.joinmc.link",
+          "assigned_srv": "face-philip.sa.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "73b70783-fcc3-4da0-aff5-fa675cf4439c",
+          "ip_hostname": "16.ip.sa.ply.gg",
+          "ip_type": "both",
+          "port_end": 1386,
+          "port_start": 1385,
+          "region": "south-america",
+          "static_ip4": "23.133.216.16",
+          "tunnel_ip": "2602:fbaf:0:6::10"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-07-21T02:40:45.188566Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "1b5e2729-55da-4f1d-b27e-98eddf918441",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "94947898-9422-4946-a204-b074fcaa219c",
+          "agent_name": "nuevosv",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "south-america",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 16,
+    "claimed": 0,
+    "desired": 0
+  }
+}
